@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px;
+  align-items: center;
+  background-color: rgb(193, 205, 250);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.header {
+  margin: 30px 0;
+  font-size: xx-large;
+  font-weight: 600;
+  color: blue;
+}
+
+.input_fields {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input_fields input {
+  border: none;
+  outline: none;
+  padding: 22px 150px;
+  font-size: large;
+  border-radius: 5px;
+  background-color: rgb(244, 243, 243);
+}
+
+.forgot_password {
+  display: flex;
+  padding-top: 25px;
+  font-size: 15px;
+  color: rgb(97, 96, 96);
+}
+
+.forgot_password span {
+  color: blue;
+}
+
+.signup_login_btns {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.slbtn {
+  padding: 15px 50px;
+  font-size: large;
+  border-radius: 35px;
+  background-color: blue;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: 500;
+}
+
+.gray {
+  background-color: rgb(244, 243, 243);
+  color: rgb(97, 96, 96);
+}
